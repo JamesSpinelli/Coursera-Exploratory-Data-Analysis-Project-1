@@ -12,4 +12,4 @@ project1$Global_active_power <-as.numeric(project1$Global_active_power)
 
 globalData = with(project1,(Global_active_power))
 
-hist(globalData,col=c("red"))
+hist(globalData,col=c("red"),xlab="Global Active Power (kilowatts)",ylab="Frequency",main="Global Active Power")
