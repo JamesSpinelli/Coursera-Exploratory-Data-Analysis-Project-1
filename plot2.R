@@ -14,7 +14,7 @@ updatedProject <- mutate(updatedProject, dateTime = ymd_hms(paste(Date, Time)))
 
 
 
-plot(x=updatedProject$dateTime,y=updatedProject$Global_active_power, type="l")
+plot(x=updatedProject$dateTime,y=updatedProject$Global_active_power, type="l", xlab="",ylab="Global Active Power (kilowatts)")
 
 
 
